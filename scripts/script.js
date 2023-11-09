@@ -10,12 +10,14 @@ btn.addEventListener("click", function(event){
     var userL = user.length;
     var passL = pass.length;
 
-    if (user === "" || pass == ""){
+    if (user === "" || pass === ""){
         alert("O campo de usuário ou de senha não podem estar vazios!")
     } else if (userL < 5 || passL < 8){
         alert("O usuário deve ter 5 caracteres e a senha 8!")
+    } else if (user == "vinicius.macacari" && pass == "12345678"){
+        window.location.href = "./local.html";
     } else {
-            window.location.href = "./local.html";
+        alert("Senha e/ou usuário incorretos")
     }
 })
 

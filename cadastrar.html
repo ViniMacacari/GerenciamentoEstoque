@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Local</a></li>
+            <li><a href="#">Monitorar</a></li>
+            <li><a href="#">Financeiro</a></li>
+        </ul>
+    </header>
+
+    <div class="contentEnter">
+        <!-- Início do Conteúdo -->
+        <h1>Cadastro de Produtos</h1>
+        <div class="blocoCadastrar">
+            <h2>Informações obrigatórias</h2>
+            <div class="cad-prod q3 obrigatorios">
+                <div class="input-container">
+                    <input placeholder="Nome do Item*" class="input-field" type="text">
+                    <label for="input-field" class="input-label">Defina um nome para o item</label>
+                    <span class="input-highlight"></span>
+                  </div>
+                  <div class="input-container">
+                    <input placeholder="Quantidade*" class="input-field" type="number" maxlength="10">
+                    <label for="input-field" class="input-label">Informe a quantidade de itens</label>
+                    <span class="input-highlight"></span>
+                  </div>
+                  <div class="input-container">
+                    <input placeholder="Preço*" class="input-field" type="number" maxlength="10">
+                    <label for="input-field" class="input-label">Informe o preço base do item</label>
+                    <span class="input-highlight"></span>
+                  </div>
+            </div>
+            <h2>Informações opcionais</h2>
+            <div class="cad-prod q3 opcionais">
+                <div class="input-container">
+                    <input placeholder="Impostos" class="input-field" type="number">
+                    <label for="input-field" class="input-label">Impostos de venda</label>
+                    <span class="input-highlight"></span>
+                  </div>
+                  <div class="input-container">
+                    <input placeholder="Vida útil" class="input-field" type="number" maxlength="10">
+                    <label for="input-field" class="input-label">Vida útil média do produto</label>
+                    <span class="input-highlight"></span>
+                  </div>
+                  <div class="input-container">
+                    <input placeholder="Custo" class="input-field" type="number" maxlength="10">
+                    <label for="input-field" class="input-label">Custo médio de compra</label>
+                    <span class="input-highlight"></span>
+                  </div>
+            </div>
+        </div>
+        <!-- Fim do Conteúdo -->
+    </div>
+
+    <div class="bottomDiv">
+        <h4>Copyright © Control M Stock, 2023</h4>
+    </div>
+<script src="./scripts/user.js"></script>
+</body>
+</html>
