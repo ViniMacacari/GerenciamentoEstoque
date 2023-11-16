@@ -3,6 +3,8 @@
 // Login
 const btn = document.getElementById("logbtn");
 
+alert("Para testar use o usuário vinicius.macacari e a senha 12345678")
+
 btn.addEventListener("click", function(event){
 
     var user = document.getElementById("user").value;
